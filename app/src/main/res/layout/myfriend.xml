@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/round1"
+            android:gravity="center"
+            android:text="MyFriend"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="5"
+        android:layout_margin="10dp">
+
+        <ListView
+            android:id="@+id/myfriend_Listview"
+            android:scrollbarThumbVertical="@color/scrollbar"
+            android:scrollbarSize="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/round3"
+            android:textColor="#FBFBFB"
+            android:text="MyFriend"
+            android:id="@+id/MyFriend"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:layout_gravity="bottom"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/round3"
+            android:textColor="#FBFBFB"
+            android:text="Other User"
+            android:id="@+id/Other_User"
+            android:textAllCaps="false"
+            android:gravity="center"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/round3"
+            android:textColor="#FBFBFB"
+            android:text="Mypage"
+            android:id="@+id/Mypage2"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:layout_gravity="bottom"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
